@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "autoattack",
+	"version": "${version}",
+	"name": "AutoAttack",
+	"description": "Auto Attack enemy",
+	"authors": [
+		"mingun"
+	],
+	"contact": {
+		"homepage": "https://github.com/roor48/Fabric-AutoAttack",
+		"sources": "https://github.com/roor48/Fabric-AutoAttack"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/autoattack/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"org.mingun.modding.AutoAttack"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
